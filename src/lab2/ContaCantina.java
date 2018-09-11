@@ -1,3 +1,8 @@
+/**
+ * Essa Classe representa as contas dos alunos nas cantinas.
+ * 
+ * @author Yanka Yohana
+ */
 package lab2;
 
 public class ContaCantina {

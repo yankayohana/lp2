@@ -21,7 +21,7 @@ public class Coisa {
 		System.out.println(contaLCC2.toString());
 
 		Disciplina prog2 = new Disciplina("PROGRAMACAO 2");
-
+	
 		prog2.cadastraHoras(4);
 		prog2.cadastraNota(1, 5.0);
 		prog2.cadastraNota(2, 6.0);

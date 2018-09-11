@@ -45,7 +45,7 @@ public class ContaLaboratorio {
 	/**
 	 * Adiciona espaço utilizado na conta.
 	 * 
-	 * @param mbytes cota medida em mb
+	 * @param mbytes valor que será acrescentado no espaço no espaço utilizado.
 	 */
 	public void consomeEspaco(int mbytes) {
 		this.espacoUtilizado += mbytes;
@@ -54,7 +54,7 @@ public class ContaLaboratorio {
 	/**
 	 * Libera espaço na conta.
 	 * 
-	 * @param mbytes cota medida em mb
+	 * @param mbytes valor que será diminuido do espaço utlizado. 
 	 */
 	public void liberaEspaco(int mbytes) {
 		this.espacoUtilizado -= mbytes;
@@ -63,7 +63,7 @@ public class ContaLaboratorio {
 	/**
 	 * verifica se o aluno atingiu a cota de espaço.
 	 * 
-	 * @return
+	 * @return um boolean que indica se o aluno atingiu a cota, true = atingiu a cota e false = não atingiu a cota.
 	 */
 	public boolean atingiuCota() {
 		boolean atingiu = false;
