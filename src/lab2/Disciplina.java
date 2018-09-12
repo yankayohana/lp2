@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Essa Classe representa a conta do aluno na cantina.
  * 
- * @author yanka yohana
+ * @author Yanka Yohana, 116211079 - Laboratório de Programaçao 2
  */
 
 public class Disciplina {
