@@ -4,7 +4,7 @@ package lab2;
  * Essa Classe contém informações sobre as contas dos alunos nos laboratórios,
  * tais como: nome do laboratório, cota, e espaço utilizado.
  * 
- * @author Yanka Yohana, 116211079 - Laboratório de Programaçao 2
+ * @author Yanka Yohana - Laboratório de Programaçao 2
  */
 
 public class ContaLaboratorio {
